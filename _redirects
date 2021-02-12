@@ -24,7 +24,7 @@
 /wisdom/training/training.htm /danceprof.html 301
 /village/ /space.html 301
 /artists/ensemble/ensemble.htm /ensemble.html 301
-/artists/protima/images/?C=N;O=D /protima.html 301
+/artists/protima/images/* /protima.html 301
 /wisdom/workshops/workshops1.htm /danceunlimited.html#residential 301
 /2wisdom/prog/prog1.htm /danceprof.html 301
 /5village/spaces/spaces2.htm /space.html 301
