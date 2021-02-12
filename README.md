@@ -1,4 +1,4 @@
-Static HTML, CSS and Javascript files for the website at www.nrityagram.org
+Static HTML, CSS and Javascript files for the website
 
 Site is deployed on Netlify
 
