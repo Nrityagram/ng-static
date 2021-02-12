@@ -1,16 +1,16 @@
 # Redirects from what the browser requests to what we serve
-/artists/surupa/surupa.htm /surupa.html 301
-/artists/bijayini/bijayini.htm /bijayini.html 301
-/artists/protima/protima.htm /protima.html 301
+/artists/surupa/surupa.htm  /surupa.html 301
+/artists/bijayini/bijayini.htm  /bijayini.html 301
+/artists/protima/protima.htm    /protima.html 301
 /expression/bnatyam/bnatyam.htm /gurukula.html 301
 /expression/kuchipudi/kuchipudi.htm /gurukula.html 301
 /expression/kathakali/kathakali.htm /gurukula.html 301
-/village/spaces/odissi_g.htm /danceprof.html 301
-/village/spaces/kathak_g.htm /gurukula.html 301
-/wisdom/apply/Wisdom_Student_Application.pdf /danceprof.html 301
-/artists/rising/rising.htm /pavithra.html 301
-/expression/odissi/odissi.htm /gurukula.html 301
-/village/spaces/amphitheatre.htm /space.html#amphi 301
+/village/spaces/odissi_g.htm    /danceprof.html 301
+/village/spaces/kathak_g.htm    /gurukula.html 301
+/wisdom/apply/Wisdom_Student_Application.pdf    /danceprof.html 301
+/artists/rising/rising.htm  /pavithra.html 301
+/expression/odissi/odissi.htm   /gurukula.html 301
+/village/spaces/amphitheatre.htm    /space.html#amphi 301
 /wisdom/training/training3.htm /danceprof.html 301
 /village/spaces/guest.htm /supportingartists.html 301
 /wisdom/apply/apply1.htm /danceprof.html 301
