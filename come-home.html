@@ -625,7 +625,7 @@
             </div>
             <div></div>
             <div id="sib-container" class="sib-container--large sib-container--vertical" style="text-align:center; background-color:rgba(255,255,255,1); max-width:540px; border-radius:3px; border-width:1px; border-color:#C0CCD9; border-style:solid;">
-              <form id="sib-form" method="POST" action="https://ad245a8d.sibforms.com/serve/MUIEAF4KxTmn1X79Y3wRcB5lUswEkQVzdUjfJyDgFihtZyf6fAao-N-gKFv_5lSHWDlaX2ooJlQxmLh3iXJpiHMiyujcS3jKB048I3XBHRGpp6xvCWG72UIqtgkrTrAGaNy80LldvDvAvcGbx1ZRmnAmIRIRNwk23d7onXvRnV5O8Gid8oab9l7u4O4Sxh_r3_Z88GKC1rHH8psL"
+              <form id="sib-form" method="POST" action="https://ad245a8d.sibforms.com/serve/MUIEADlXNbIQfz5XvpAtsHcOf-cJqffq3FaW5_OpHh6KCL3LLjIYw3sG5SuGCZrFPm1kXCHttatGzf7d8F7j9dMw2WRQx4V7Ig9-QngVKzQaVjR65U0wbgpxFBPtIv1qHAmWjMAmFAiB_JD9Rfo9r1QofgJfmpqJ-kp7mavcEkmRCit1a0Mcb07IRh9Ip2jqU5ADo8U57sChwE1s"
                 data-type="subscription">
                 <div style="padding: 8px 0;">
                   <div class="sib-form-block" style="font-size:32px; text-align:left; font-weight:700; font-family:&quot;Helvetica&quot;, sans-serif; color:#3C4858; background-color:transparent;">
@@ -1490,21 +1490,7 @@
                   </div>
                 </div>
                 <div style="padding: 8px 0;">
-                  <div class="sib-captcha sib-form-block">
-                    <div class="form__entry entry_block">
-                      <div class="form__label-row ">
-                        <script>
-                          function handleCaptchaResponse() {
-                            var event = new Event('captchaChange');
-                            document.getElementById('sib-captcha').dispatchEvent(event);
-                          }
-                        </script>
-                        <div class="g-recaptcha sib-visible-recaptcha" id="sib-captcha" data-sitekey="6LfR4S8aAAAAAIz5IU07yoQEDEKWqFjZeHZC2Knl" data-callback="handleCaptchaResponse"></div>
-                      </div>
-                      <label class="entry__error entry__error--primary" style="font-size:16px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-color:#ff4949;">
-                      </label>
-                    </div>
-                  </div>
+                  <div class="g-recaptcha" data-sitekey="6LddYK4aAAAAAOfdURp7dIWtJvI6-KXCZWDgp4TU" data-callback="invisibleCaptchaCallback" data-size="invisible" onclick="executeCaptcha"></div>
                 </div>
                 <div style="padding: 8px 0;">
                   <div class="sib-form__declaration">
@@ -1574,6 +1560,7 @@
       var AUTOHIDE = Boolean(1);
     </script>
     <script src="https://sibforms.com/forms/end-form/build/main.js"></script>
+    
     <script src="https://www.google.com/recaptcha/api.js?hl=en"></script>
     <!-- END SendinBlue Script Section -->
   </body>
