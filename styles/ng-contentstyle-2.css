@@ -191,7 +191,7 @@ content .donate-button.red:hover {
     cursor: pointer;
 }
 
-input {
+input.nav--input {
     display: none;
 }
 

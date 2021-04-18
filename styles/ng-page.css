@@ -50,6 +50,10 @@ a.bodytxt {
   /* overflow: auto; */
 }
 
+.container.no--masthead {
+  grid-template-rows: 80px 1fr auto;
+}
+
 .container.scroll-lock {
   height: 100%;
   overflow: auto;
