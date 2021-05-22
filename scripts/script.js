@@ -92,6 +92,13 @@ window.onbeforeunload = function () {
   this.close_menu();
 };
 
+// prevent download of images through mouse events
+$(document).ready(function () {
+  $("img").bind("contextmenu", function (e) {
+    return false;
+  });
+});
+
 // Disable right-clicking by JavaScript
 /**
  * Disable right-click of mouse, F12 key, and save key combinations on page

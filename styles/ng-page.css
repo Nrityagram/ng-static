@@ -1,5 +1,10 @@
 @import url("./ng-const.css");
 
+/* protect image download by blocking mouse events */
+img {
+  pointer-events: none;
+}
+
 
 .is-mobile {
   display: block;
